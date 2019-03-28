@@ -144,6 +144,7 @@ HANDLERS = Registry()
 FLOWS = [
     'ambiclimate',
     'ambient_station',
+    'axis',
     'cast',
     'daikin',
     'deconz',
@@ -162,6 +163,7 @@ FLOWS = [
     'locative',
     'luftdaten',
     'mailgun',
+    'mobile_app',
     'mqtt',
     'nest',
     'openuv',

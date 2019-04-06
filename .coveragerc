@@ -19,7 +19,6 @@ omit =
     homeassistant/components/aladdin_connect/cover.py
     homeassistant/components/alarm_control_panel/manual_mqtt.py
     homeassistant/components/alarmdecoder/*
-    homeassistant/components/ambiclimate/*
     homeassistant/components/alarmdotcom/alarm_control_panel.py
     homeassistant/components/alpha_vantage/sensor.py
     homeassistant/components/ambient_station/*

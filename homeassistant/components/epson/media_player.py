@@ -142,7 +142,8 @@ class EpsonProjector(MediaPlayerDevice):
     async def async_turn_off(self):
         """Turn off epson."""
         from epson_projector.const import TURN_OFF
-        await self._projector.send_command(TURN_OFF)
+        if self._state == STATE_ON:
+            await self._projector.send_command(TURN_OFF)
 
     @property
     def source_list(self):
